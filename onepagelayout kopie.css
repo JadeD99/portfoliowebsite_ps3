@@ -1,0 +1,429 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'Poppins-Black';
+	src: url('fonts/Poppins-Black.ttf');
+}
+@font-face{
+	font-family: 'Poppins-medium';
+	src: url('fonts/Poppins-Medium.ttf');
+}
+@font-face{
+	font-family: 'Poppins-bold';
+	src: url('fonts/Poppins-Bold.ttf');
+}
+@font-face{
+	font-family: 'Poppins-thinitalic';
+	src: url('fonts/Poppins-ThinItalic.ttf');
+}
+.menu{
+	position:fixed;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 30%;
+	height:100px;
+	top:25%;
+	left:4.5%;
+	font-family:Poppins-bold;
+	z-index:30;
+	border: 2px solid #afc0f5;
+	border-radius: 0px;
+	background-color: white;
+}
+.menu:hover{
+	color:color:#afc0f5;
+}
+.menu a{
+	font-size:18px;
+	padding: 15px 0;
+	color: black;
+	font-weight: 700;
+	text-decoration:none;
+	cursor:pointer;
+	z-index:10;
+	font-family:Poppins-bold
+}
+.menu a:hover{
+	color:color:#afc0f5
+}
+section{
+	display:inline-block;
+	width:100%;
+	height: 100vh;
+}
+.content .section:nth-child(1){
+	background-color: white;
+	height:1000px;
+	width:1450px;
+	position:absolute;
+	top:-15%;
+	left: 0%;
+}
+.content .section:nth-child(2){
+	background-color: white;
+	height:1400px;
+	position:absolute;
+	width:1400px;
+	top:137%;
+	left: 0%;
+}
+.content .section3{
+	background-color: white;
+	height:2300px;
+	position:absolute;
+	top:320%;
+	left: 0%;
+}
+
+/*content afbeeldingen */
+/* fotografie afbeeldingen */
+.foto3{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:6%;
+	left: 79%;
+	overflow:hidden;
+}
+.foto1{
+	width:450px;
+	height:300px;
+	position: absolute;
+	top:6%;
+	left: 5%;
+	overflow:hidden;
+}
+.foto2{
+	width: 420px;
+	height: 300.5px;
+	position: absolute;
+	top:6%;
+	left: 43%;
+}
+.foto4{
+	width: 420px;
+	height: 300.5px;
+	position: absolute;
+	top:21%;
+	left: 43%;
+}
+.foto5{
+	width: 450px;
+	height:300.5px;
+	position: absolute;
+	top:21%;
+	left: 5%;
+}
+.foto6{
+	width: 200px;
+	height: 300.5px;
+	position: absolute;
+	top:21%;
+	left: 79.7%;
+}
+
+.foto7{
+	width: 450px;
+	height: 300.5px;
+	position: absolute;
+	top:36%;
+	left: 5%;
+}
+.foto8{
+	width: 420px;
+	height: 300.5px;
+	position: absolute;
+	top:36%;
+	left: 43%;
+}
+.foto9{
+	width: 200px;
+	height: 300.5px;
+	position: absolute;
+	top:36%;
+	left: 79.7%;
+}
+.foto10{
+	width: 450px;
+	height: 300.5px;
+	position: absolute;
+	top:51%;
+	left: 5%;
+}
+.foto11{
+	width: 420px;
+	height: 300.5px;
+	position: absolute;
+	top:51%;
+	left: 43%;
+}
+.foto12{
+	width: 200px;
+	height: 300.5px;
+	position: absolute;
+	top:51%;
+	left: 79.7%;
+}
+.foto13{
+	width: 450px;
+	height: 300.5px;
+	position: absolute;
+	top:66%;
+	left: 5%;
+}
+.foto14{
+	width: 420px;
+	height: 300.5px;
+	position: absolute;
+	top:66%;
+	left: 43%;
+}
+.foto15{
+	width: 200px;
+	height: 300.5px;
+	position: absolute;
+	top:66%;
+	left: 79.7%;
+}
+.foto16{
+	width: 180px;
+	height: 300.5px;
+	position: absolute;
+	top:81%;
+	left: 5%;
+}
+.foto17{
+	width: 180px;
+	height: 300.5px;
+	position: absolute;
+	top:81%;
+	left: 23.5%;
+}
+.foto18{
+	width: 180px;
+	height: 300.5px;
+	position: absolute;
+	top:81%;
+	left: 43%;
+}
+.foto19{
+	width: 180px;
+	height: 300.5px;
+	position: absolute;
+	top:81%;
+	left: 59.5%;
+}
+
+.foto20{
+	width: 200px;
+	height: 300.5px;
+	position: absolute;
+	top:81%;
+	left: 80%;
+}
+
+
+/* cmd afbeeldingen */
+.cmd1{
+	width:400px;
+	height:300px;
+	position: absolute;
+	top:45%;
+	left:5%;
+	overflow:hidden;
+	z-index:10;
+}
+
+.cmd2{
+	width:400px;
+	height:300px;
+	position: absolute;
+	top:45%;
+	left: 36%;
+	overflow:hidden;
+	z-index:10;
+}
+.cmd3{
+	width:400px;
+	height:300px;
+	position: absolute;
+	top:45%;
+	left: 67%;
+	overflow:hidden;
+	z-index:10;
+}
+
+.cmd4{
+	width:400px;
+	height:300px;
+	position: absolute;
+	top:80%;
+	left: 5%;
+	overflow:hidden;
+	z-index:10;
+}
+.cmd5{
+	width:400px;
+	height:300px;
+	position: absolute;
+	top:80%;
+	left: 36%;
+	overflow:hidden;
+		z-index:10;
+}
+.cmd6{
+	width:400px;
+	height:3xw0px;
+	position: absolute;
+	top:80%;
+	left: 67%;
+	overflow:hidden;
+	z-index:10;
+}
+/* illustratie afbeeldingen */
+.il1{
+	width:180px;
+	height:300px;
+	position: absolute;
+	top:10%;
+	left: 5%;
+	overflow:hidden;
+}
+.il2{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:10%;
+	left: 30%;
+	overflow:hidden;
+}
+.il3{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:10%;
+	left: 55%;
+	overflow:hidden;
+}
+.il4{
+	width:250px;
+	height:300px;
+	position: absolute;
+	top:10%;
+	left: 80%;
+	overflow:hidden;
+}
+.il5{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:40%;
+	left: 5%;
+	overflow:hidden;
+}
+.il6{
+	width:230px;
+	height:300px;
+	position: absolute;
+	top:40%;
+	left: 30%;
+	overflow:hidden;
+}
+.il7{
+	width:350px;
+	height:450px;
+	position: absolute;
+	top:34.6%;
+	left: 50%;
+	overflow:hidden;
+}
+.il8{
+	width:250px;
+	height:300px;
+	position: absolute;
+	top:40%;
+	left: 80%;
+	overflow:hidden;
+}
+
+.il9{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:70%;
+	left: 5%;
+	overflow:hidden;
+}
+.il10{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:70%;
+	left: 30%;
+	overflow:hidden;
+}
+.il11{
+	width:650px;
+	height:1000px;
+	position: absolute;
+	top:48.5%;
+	left: 40.5%;
+	overflow:hidden;
+}
+.il12{
+	width:210px;
+	height:300px;
+	position: absolute;
+	top:70%;
+	left: 80%;
+	overflow:hidden;
+}
+
+
+
+
+.cmd{
+	font-family:Poppins-bold;
+	font-size: 2em;
+	text-align:center;
+	letter-spacing: 0.08em;
+	color: black;
+	padding: 15px 0;
+	top:35%;
+	left: 35%;
+}
+.h1-foto{
+	font-family:Poppins-bold;
+	font-size: 2em;
+	text-align:center;
+	letter-spacing: 0.08em;
+	color: black;
+	padding: 15px 0;
+	top:0%;
+	left: 45%;
+	position:absolute;
+	z-index:15;
+}
+.h1-foto:hover{
+	color: #afc0f5;
+}
+.illustratie{
+	font-family:Poppins-bold;
+	font-size: 2em;
+	text-align:center;
+	letter-spacing: 0.08em;
+	color: black;
+	padding: 15px 0;
+	top:0%;
+	left: 2%;
+	width:100%;
+	position:absolute;
+	margin:20px;
+	padding:40px;
+}	
+
+	

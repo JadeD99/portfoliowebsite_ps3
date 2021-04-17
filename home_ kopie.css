@@ -1,0 +1,302 @@
+@font-face{
+	font-family: 'Poppins-Black';
+	src: url('fonts/Poppins-Black.ttf');
+}
+@font-face{
+	font-family: 'Poppins-medium';
+	src: url('fonts/Poppins-Medium.ttf');
+}
+@font-face{
+	font-family: 'Poppins-bold';
+	src: url('fonts/Poppins-Bold.ttf');
+}
+* {box-sizing: border-box}
+body{
+	width:100%
+	margin 00;
+	padding:0;
+}
+.nav-item{
+	font-size:16px;
+	
+}
+.eerste{
+font-family:Poppins-bold;
+	font-weight:bold;
+	font-size:25px;
+	position: absolute;
+	top:25%;
+	letter-spacing: 0.08em;
+	left:7.2%;
+	color: black;
+	z-index:10;
+}
+.eerste:hover{
+	background-color:#f0d98c;
+	color:white;
+}
+.en{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: absolute;
+	top:25%;
+	letter-spacing: 0.08em;
+	left:27.5%;
+	color: black;
+	z-index:10;
+}
+h2{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	font-size:25px;
+	position: absolute;
+	top:25%;
+	letter-spacing: 0.08em;
+	left:30%;
+	color: black;
+	z-index:10;
+}
+h2:hover{
+	background-color:#f0d98c;
+	color:white;
+}
+.hoi{
+font-family:Poppins-bold;
+	font-size:35px;
+	font-weight:bold;
+	position: absolute;
+	top:17%;
+	letter-spacing: 0.08em;
+	left:5%;
+	color: black;
+	z-index:10;
+}
+	
+h1{
+	font-family:Poppins-bold;
+	font-size:25px;
+	font-weight:bold;
+	position: absolute;
+	top:25%;
+	letter-spacing: 0.08em;
+	left:5%;
+	color: black;
+	z-index:10;
+}
+.naam{
+	font-family:Poppins-bold;
+	font-size:35px;
+	font-weight:bold;
+	position: absolute;
+	top:16.5%;
+	letter-spacing: 0.08em;
+	left:30%;
+	color: white;
+	padding:4px;
+	z-index:10;
+	background-color:#c6d2f8;
+}
+
+.begintekst{
+	font-family:Poppins-medium;
+	font-size:14px;
+	position: absolute;
+	width:700px;
+	top:32%;
+	line-height:25px;
+	letter-spacing: 0.08em;
+	left:5%;
+	color: black;
+	z-index:10;
+}
+.overmij{
+	font-family:Poppins-medium;
+	font-size:14px;
+	position: absolute;
+	width:700px;
+	top:59.8%;
+	letter-spacing: 0.08em;
+	left:26.5%;
+	text-decoration:underline;
+	color:white;
+	z-index:0;
+	cursor:pointer;
+}
+.overmij:hover{
+	color:#9bb0fb;
+}
+.fotoinfo{	
+	font-family:Poppins-medium;
+	font-size:12px;
+	position: absolute;
+	width:470px;
+	top:31.7%;
+	letter-spacing: 0.08em;
+	left:60%;
+	color:black;
+	text-decoration:none;
+}
+
+.vlak3{
+	width:800px;
+	height:250px;
+	background: #fbf5e2;
+	position: absolute;
+	top:14%;
+	left: 3%;
+	z-index:-1;
+}
+
+.vlak1{	
+	width:550px;
+	height:420px;
+	background: #f0d98c;
+	position: absolute;
+	top:30%;
+	left: 55%;
+	z-index:-1;
+}
+
+.vlak2{	
+	width:350px;
+	height:50px;
+	background: #c6d2f8;
+	position: absolute;
+	top:58%;
+	left: 25%;
+	z-index:-1;
+}
+
+.pic1{
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	top:40.8%;
+	left: 58.5%;
+	z-index:30;
+}
+.pic2{
+	width: 600px;
+	height:800px;
+	position: absolute;
+	top:10%;
+	left: -8%;
+	z-index:5;
+}
+
+.intro{
+	font-family: Poppins-medium;
+	font-size:12px;
+	position: absolute;
+	width: 35%;
+	letter-spacing: 0.08em;
+	top:15%;
+	letter-spacing: 0.04em;
+	left: 33.5%;
+	line-height: 20px;
+}
+
+#ig{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:3.4%;
+	left: 88%;
+}
+#email{
+	width: 20px;
+	height: 14 px;
+	position: absolute;
+	top:3.4%;
+	left: 90%;
+}
+
+logo{
+	width: 20px;
+	height: 25px;
+}
+
+#logo{
+	width:200px;
+	height:40px;
+	position: absolute;
+	top:2%;
+	left: 42%;
+
+}
+
+a{
+	font-family: PoppinsBlack;
+	letter-spacing: 0.04em;
+	font-size:12px;
+	font-weight: bold;
+	font-size:14px;
+	color: black;	
+}
+
+
+
+/* footer css */
+
+.footer{
+	width:1250px;
+	height:2px;
+	background: #9bb0fb;
+	position: absolute;
+	top:100%;
+	left:6%;
+}
+	
+.ig_footer{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:108%;
+	left: 49.4%;
+	z-index:10;
+	
+}	
+	
+.copyright{	
+	font-family: Poppins-medium;
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	float:right; 
+	margin-left:150px;
+	margin-right:150px;
+	top:103%;
+	letter-spacing: 0.04em;
+	left: 0%;
+}
+.copyright:hover{	
+	color:#afc0f5;
+}	
+.ft{
+	background: ;
+	position: absolute;
+	width:90px;
+	height:10px;
+	top:115%;
+	left: 50%;
+}
+
+.email_footer{
+	width: 18px;
+	height: 15px;
+	position: absolute;
+	top:108%;
+	left: 47.5%;
+	border: 5px;
+}	
+.yt_footer{
+	width: 35px;
+	height: 22px;
+	position: absolute;
+	top:107.5%;
+	left: 50.5%;
+	border: 5px;
+	z-index:0;
+}	
+
+

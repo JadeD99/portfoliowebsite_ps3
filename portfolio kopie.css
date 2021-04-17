@@ -1,0 +1,426 @@
+@font-face{
+	font-family: 'Poppins-Black';
+	src: url('fonts/Poppins-Black.ttf');
+}
+@font-face{
+	font-family: 'Poppins-medium';
+	src: url('fonts/Poppins-Medium.ttf');
+}
+@font-face{
+	font-family: 'Poppins-bold';
+	src: url('fonts/Poppins-Bold.ttf');
+}
+@font-face{
+	font-family: 'Poppins-thinitalic';
+	src: url('fonts/Poppins-ThinItalic.ttf');
+}
+@font-face{
+	font-family: 'Poppins-light';
+	src: url('fonts/Poppins-light.ttf');
+}
+@font-face{
+	font-family: 'Poppins-thin';
+	src: url('fonts/Poppins-Thin.ttf');
+}
+body{
+	width:100%;
+	margin 0;
+	padding:0;
+}
+
+/*collapse css */
+div.a {
+  white-space: nowrap; 
+  width: 80px; 
+  height:30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+  padding:6px;
+  position: absolute;
+  top:83%;
+  left: 15%;
+  z-index:10;
+  background-color:white;
+}
+
+div.a:hover {
+  overflow: visible;
+  width: 695px; 
+  height:200px;
+  background-color:white;
+}
+.cmd_uitleg{
+	font-family: Poppins-medium;
+	font-size:13px;
+	position: absolute;
+	width: 130%;
+	letter-spacing: 0.08em;
+	top:5%;
+	color:#3b3b3b;
+	padding:5px;
+}
+b{
+	font-family: Poppins-bold;
+}
+div.b {
+  white-space: nowrap; 
+  width: 80px; 
+  height:30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+  padding:6px;
+  position: absolute;
+  top:300%;
+  left: 15%;
+   background-color:white;
+}
+
+div.b:hover {
+  overflow: visible;
+  width: 640px; 
+  height:240px;
+  background-color:white;
+}
+.HKU{
+	font-family: Poppins-medium;
+	font-size:13px;
+	position: absolute;
+	width: 130%;
+	letter-spacing: 0.08em;
+	top:5.2%;
+	color:#3b3b3b;
+	padding:5px;
+}
+
+div.c {
+  white-space: nowrap; 
+  width: 80px; 
+  height:30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+  padding:6px;
+  position: absolute;
+  top:300%;
+  left: 60%;
+  background-color:white;
+}
+
+div.c:hover {
+  overflow: visible;
+  width: 295px; 
+  height:130px;
+background-color:white;
+}
+.rob{
+	font-family: Poppins-medium;
+	font-size:13px;
+	position: absolute;
+	width: 130%;
+	letter-spacing: 0.08em;
+	top:5.2%;
+	color:#3b3b3b;
+	padding:5px;
+}
+/*collapse css */
+.plank{
+	width: 300px;
+	height: 20px;
+	position: absolute;
+	top:17%;
+	left: 5%;
+	background: #f0d98c;
+	  transform: rotate(-3deg)
+}
+#img{
+	width: 700px;
+	height: 900px;
+	position: absolute;
+	top:27%;
+	left: 25%;
+}
+
+#ig{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:3.4%;
+	left: 88%;
+	z-index:10;
+}
+#email{
+	width: 20px;
+	height: 14 px;
+	position: absolute;
+	top:3.4%;
+	left: 90%;
+	z-index:10;
+}
+
+logo{
+	width: 20px;
+	height: 25px;
+}
+
+#logo{
+	width:200px;
+	height:40px;
+	position: absolute;
+	top:2%;
+	left: 42%;
+	z-index:20;
+}
+.fotografie{
+	width:450px;
+	height:300px;
+	position: absolute;
+	top:38%;
+	left: 5%;
+	overflow:hidden;
+}
+.cmd{
+	width: 400px;
+	height: 300.5px;
+	position: absolute;
+	top:38%;
+	left: 43%;
+}
+.illustratie{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:38%;
+	left: 79%;
+	overflow:hidden;
+}
+.lijn{
+	width: 85%;
+	height: 20.5px;
+	position: absolute;
+	top:85%;
+	left: 5%;
+	overflow:hidden;
+}
+
+h1{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: relative;
+	top:7%;
+	letter-spacing: 0.08em;
+	left:13%;
+	color: black;
+	z-index:10;
+}
+h1:hover{
+	color:#afc0f5;
+}
+
+.hover_button_cmd{
+	width:160px;
+	height545px;
+	position: absolute;
+	top:83%;
+	left: 5.5%;
+	z-index:20;
+}
+.hover_button_cmd:hover{
+	animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+.hover_button_hku{
+	width:160px;
+	height545px;
+	position: absolute;
+	top:300%;
+	left: 5.5%;
+	z-index:20;
+}
+.hover_button_hku:hover{
+	animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+.hover_button_robotica{
+	width:160px;
+	height545px;
+	position: absolute;
+	top:300%;
+	left: 50.5%;
+	z-index:20;
+}
+.hover_button_robotica:hover{
+	animation: shake 1.0s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+
+
+
+/* nav van de portfolio pagina links */
+.p1{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: absolute;
+	letter-spacing: 0.08em;
+	top:28%;
+	left:5%;
+	color: black;
+}
+.p2{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: absolute;
+	letter-spacing: 0.08em;
+	top:28%;
+	left:10%;
+	color: black;
+}
+.p3{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: absolute;
+	letter-spacing: 0.08em;
+	top:28%;
+	left:19%;
+	color: black;
+}
+.p4{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: absolute;
+	letter-spacing: 0.08em;
+	top:28%;
+	left:28%;
+	color: black;
+}
+.p1:hover,.p2:hover, .p3:hover, .p4:hover {
+	color:#9bb0fb;
+}
+
+
+#port{
+	color:#9bb0fb;
+}
+
+
+
+/* footer css */
+.footer{
+	width:90%;
+	height:2px;
+	background: #9bb0fb;
+	position: absolute;
+	top:620%;
+	left: 5%;
+	z-index:30;
+	margin:10px;
+}
+	
+.ig_footer{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:628%;
+	left: 50.2%;
+	border: 5px;
+		z-index:10;
+}	
+	
+.copyright{	
+	font-family: Poppins-medium;
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	float:right; 
+	margin-left:150px;
+	margin-right:150px;
+	top:624%;
+	letter-spacing: 0.04em;
+	left: 0%;
+	z-index:10;
+}
+.copyright:hover{	
+	color:#afc0f5;
+}	
+.ft{
+	background: ;
+	position: absolute;
+	width:90px;
+	height:10px;
+	top:633%;
+	left: 50%;
+}	
+	
+.email_footer{
+	width: 18px;
+	height: 15px;
+	position: absolute;
+	top:628%;
+	left: 48%;
+	border: 5px;
+}	
+.yt_footer{
+	width: 34px;
+	height: 22px;
+	position: absolute;
+	top:627.45%;
+	left: 51.5%;
+	border: 5px;
+	z-index:0;
+}	
+
+
+/* css code volgt voor de scroll down functie, dit heb ik kunnen maken door deze YT video: https://www.youtube.com/watch?v=SJVCvnKM_lI*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  background:#f0d98c;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:white;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  z-index:15;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+.to-top:hover{
+	color: #fbf5e2;
+}

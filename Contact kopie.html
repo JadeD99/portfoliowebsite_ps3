@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<meta charset="utf-8" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio van Jade </title>
+		
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<!-- eigen css -->
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<!-- nav css -->
+		<link rel="stylesheet" type="text/css" href="nav.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body> 	
+		<header>	
+		<!-- nav volgt - met hulp van deze YT video heb ik dit kunnen maken(css ook) https://www.youtube.com/watch?v=agsR08aAO1w&list=PLy7ENDNhtBCk6GyMripIuIFuwX_eQvXsd&index=36&t=2s-->
+			  <nav class="nav">
+ 				<a href="aboutme.html" class="nav-item" active-color="#fbf5e2">Over</a>
+  				<a href="portfolio.html" class="nav-item" active-color="#f0d88b">Portfolio</a>
+  				<a href="contact.html" class="nav-item" active-color="#e3b523" id="contact">Contact</a>
+  				<span class="nav-indicator"></span>
+			</nav>
+			<script src="snake.js">
+   			 </script>
+		<h1>Contact</h1>
+				<p class="p">Lijkt het je leuk om samen te werken of heb je vragen voor mij? <br />Neem dan gerust contact met mij op. Ik kijk er naar uit! </p>
+		<div class="div"></div>
+		    	 <figure><a href="index.html"><img src="afbeeldingen/logo.png" alt="logo" id="logo" /></a></figure> 
+		    	 <!--- social media iconen volgen hieronder -->
+		  	 	 <figure>  <a href="mailto:jadevandertuin@live.nl" target="_blank"> <img src="afbeeldingen/email.png" alt="email" id="email"  /></a></figure>
+		  	 	  <figure><a href="https://www.instagram.com/jadedemidesigns/" target=“_blank”><img src="afbeeldingen/ig2.png" alt="logo" id="ig"/></a></figure> 
+		  </header>		 
+		  <main>
+		  
+		   	<h2 class="contact">Neem contact met mij op</h2>
+		  <!-- met behulp van deze video heb ik dit contact formulier gemaakt -->
+		  <form name="myForm" action="mailto:jadevandertuin@live.nl" onsubmit="return validateForm()" method="post">
+		  	<div class="contact-section">
+      			<div class="inner-width">
+        		<input type="text" class="name" name="fname" placeholder="Voor & Achternaam*">
+        		<input type="email" class="email" name="email" placeholder="E-mail*">
+        		<textarea rows="4" placeholder="Bericht*" name="text" class="message"></textarea>
+        		<button value="submit">Verzenden</button>
+      		</div>
+   		 </div>
+		</form>
+		<section>
+		 <img src="afbeeldingen/vlak4.png" class="block" />	 
+				<div class="vlak1">
+			<p class="tekstinvlak">Lijkt het je leuk om meer portfolio werk te bekijken, klik dan op het Instagram icon.</p>
+		  	<img src="afbeeldingen/vlak.png" class="vlak" />
+		  	<img src="afbeeldingen/vlak3.png" class="vlak3" />
+		 			<a href="https://www.instagram.com/jadedemidesigns/" target=“_blank”><img src="afbeeldingen/ig2.png" alt="logo" class="insta"/></a>
+		</section>
+			<footer>		
+				<div class="footer"></div>
+					<p class="copyright">© 2020 door Jade van der Tuin </p>
+				<div class="sm">
+					<a href="mailto:jadevandertuin@live.nl" target="_blank"> <img src="afbeeldingen/email.png" alt="email" class="email_footer" /></a>
+		  			<a href="https://www.instagram.com/jadedemidesigns/" target=“_blank”><img src="afbeeldingen/ig2.png" alt="logo" class="ig_footer"/></a>
+		  			<a href="https://www.youtube.com/channel/UCZealUSxcbnX-gpLexOGZCA/videos" target=“_blank”><img src="afbeeldingen/yt.png" alt="yt" class="yt_footer" /></a>
+				</div>
+				<div class="ft"></div>
+		  	</footer>	
+		  </main>	
+		  	
+		   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+		crossorigin="anonymous"></script>
+	
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+		crossorigin="anonymous"></script>	
+		
+				
+		<script src="bootstrap.min.js"></script>
+		<!-- met behulp van deze pagina heb ik mijn verzend button responsive gemaakt en het kunnen testen
+		:https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js -->
+		<script>
+			function validateForm() {
+ 				var x = document.forms["myForm"]["fname"].value;
+  				if (x == "") {
+    				alert("Vul alsjeblieft je naam nog in");
+    				return false;
+				}
+  				var x = document.forms["myForm"]["email"].value;
+  				if (x == "") {
+    				alert("Vul alsjeblieft je e-mail nog in.");
+    				return false;
+  				}
+  				var x = document.forms["myForm"]["text"].value;
+  				if (x == "") {
+    				alert("Laat alsjeblieft nog een bericht achter.");
+    				return false;
+  				}
+			}
+		</script>
+					
+	</body>
+</html>

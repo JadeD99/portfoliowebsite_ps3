@@ -1,0 +1,320 @@
+@font-face{
+	font-family: 'Poppins-Black';
+	src: url('fonts/Poppins-Black.ttf');
+}
+@font-face{
+	font-family: 'Poppins-medium';
+	src: url('fonts/Poppins-Medium.ttf');
+}
+@font-face{
+	font-family: 'Poppins-bold';
+	src: url('fonts/Poppins-Bold.ttf');
+}
+*{
+	margin 0;
+	padding:0;
+	box-sizing: border box;
+}
+body{
+	width:100%
+	display:flex;
+}
+.nav-item{
+	font-size:16px;
+}
+#contact{
+	color:#9bb0fb;
+}
+h1{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: relative;
+	top:7%;
+	letter-spacing: 0.08em;
+	left:13%;
+	color: black;
+	z-index:10;
+}
+h1:hover{
+	color:#afc0f5;
+}
+
+#img{
+	width: 900px;
+	height: 500px;
+	position: absolute;
+	top:20%;
+	left: 20%;
+}
+
+#ig{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:3.4%;
+	left: 88%;
+}
+#email{
+	width: 20px;
+	height: 14 px;
+	position: absolute;
+	top:3.4%;
+	left: 90%;
+}
+
+logo{
+	width: 20px;
+	height: 25px;
+}
+
+#logo{
+	width:200px;
+	height:40px;
+	position: absolute;
+	top:2%;
+	left: 42%;
+
+}
+
+.p{
+	font-family:Poppins-medium;
+	font-size:14px;
+	font-weight:bold;
+	top:9%;
+	letter-spacing: 0.08em;
+	left:13%;
+	color: black;
+	font-size:14px;
+	position: relative;
+	text-align:left;
+	z-index:20;
+}
+.insta{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top:45%;
+	left: -65%;
+	z-index:40;
+}
+
+/* dit heb ik gemaakt door de stappen op deze pagina te volgen: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3*/
+.div {
+  width: 10px;
+  height: 10px;
+  background: #f0d98c;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+  border: 1px solid white;
+  border-radius:50%;
+  top:0%;
+  left: 7.4%;
+  
+}
+.vlak{
+	width:350px;
+	height:450px;
+	position: absolute;
+	top:8%;
+	left: -90%;
+	z-index:20;
+}
+.vlak3{
+	width:350px;
+	height:450px;
+	position: absolute;
+	top:8%;
+	left: -92%;
+	z-index:0;
+}
+.tekstinvlak{
+	font-family:Poppins-medium;
+	font-size:14px;
+	font-weight:bold;
+	top:30%;
+	letter-spacing: 0.1em;
+	left:-78%;
+	color: black;
+	width:220px;
+	position: absolute;
+	text-align:left;
+	z-index:40;
+}
+.block{
+	width:100px;
+	height:130px;
+	top:0%;
+	left: 90%;
+	position: absolute;
+	transform: rotate(18deg)
+}
+	
+@keyframes myfirst {
+  0%   {background: #f5e4af; left: 50px; top: 0px;}
+  25%  {background: #f0d98c; left: 580px; top: 0px;}
+  50%  {background: #ebce69; left: 580px; top: 50px;}
+  75%  {background: #b9c7f6; left: 50px; top: 50px;}
+  100% {background: #7591ed; left: 50px; top: 0px;}
+
+}
+/* css code voor het balletje eindigt hier */
+main{
+	background: white;
+	position: relative;
+	top:35%;
+  	left: 10.5%;
+  	z-index:0;
+  	width:600px;
+}
+/*form css */
+.contact{
+	font-family:Poppins-bold;
+	font-weight:bold;
+	position: relative;
+	top:10%;
+	letter-spacing: 0.08em;
+	left:17%;
+	color: black;
+	font-size:26px;
+	z-index:20;
+}
+
+.contact-section{
+  background: #fbf5e2 ;
+  padding: 80px 0;
+  text-align: center;
+
+}
+
+.inner-width{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-section h1{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin: auto;
+
+}
+
+.name,.email,.message{
+  background: none;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 20px 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  cursor:pointer;
+}
+
+.name{
+  float: left;
+  width: 270px;
+}
+
+.email{
+  float: right;
+  width: 270px;
+}
+
+.message{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+.contact-section button{
+  background: none;
+  color: #afc0f5;
+  border: 1px solid #afc0f5;
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.contact-section button:hover{
+  background: #afc0f5;
+  color: #fff;
+}
+
+
+@media screen and (max-width:600px){
+  .name,.email{
+    width: 100%;
+  }
+}
+
+
+
+/* footer css */
+
+.footer{
+	width:1250px;
+	height:2px;
+	background: #9bb0fb;
+	position: absolute;
+	top:90%;
+	left:-95%;
+}
+	
+.ig_footer{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:98%;
+	left: 10%;
+	
+}	
+	
+.copyright{	
+	font-family: Poppins-medium;
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	float:right; 
+	margin-left:150px;
+	margin-right:150px;
+	top:93%;
+	letter-spacing: 0.04em;
+	left: -55%;
+}
+.copyright:hover{	
+	color:#afc0f5;
+}	
+.ft{
+	background: white;
+	position: absolute;
+	width:90px;
+	height:10px;
+	top:105%;
+	left: 50%;
+}
+
+.email_footer{
+	width: 18px;
+	height: 15px;
+	position: absolute;
+	top:98%;
+	left: 5%;
+	border: 5px;
+}	
+.yt_footer{
+	width: 34px;
+	height: 22px;
+	position: absolute;
+	top:97.5%;
+	left: 13.5%;
+	border: 5px;
+}	
